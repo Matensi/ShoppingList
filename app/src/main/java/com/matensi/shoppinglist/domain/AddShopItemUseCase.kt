@@ -2,7 +2,7 @@ package com.matensi.shoppinglist.domain
 
 class AddShopItemUseCase(private val shopListRepository: ShopListRepository) {
     fun addShopItem(shopItem: ShopItem){
-        shopListRepository.getShopItem(shopItem)
+        shopListRepository.addShopItem(shopItem)
 
     }
 }
